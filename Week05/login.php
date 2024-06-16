@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <h1>登入</h1>
     <form action="login.php" method="POST">
-        <label for="username">用戶名：</label>
+        <label for="username">帳號：</label>
         <input type="text" id="username" name="username" required><br><br>
         
         <label for="password">密碼：</label>
